@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Breaking Bad
----
-
+---  
+  
 I am in the process of making a little python program that can be used to create an astrological birth chart.
 It does not actually create the birth chart-- my friend built an Android app for making birth charts, and he
 said the geometry sucked. My end goal for this is to write an Alexa skill that allows a user to say "Alexa,
@@ -28,10 +28,10 @@ accessing the birth chart. I have successfully done that in my program. However,
 want to filter out JUST the birthchart information. I'm currently using Beautiful Soup to parse the page.
 Here's what the meat of the page looks like, for my birth chart:
   
-`<h4 style="text-align:center">`  
-`    Here is the Astro Chart you requested:`  
-`   </h4>`  
-`  </div>`  
+<pre><code><h4 style="text-align:center">  
+    Here is the Astro Chart you requested:  
+   </h4>  
+  </div>  
 `  <div id="printReady">`  
 `   <div class="chart" style="text-align:center">`  
 `    <img alt="Free Birth Chart" src="pics/2457977570642.gif"/>`  
@@ -119,7 +119,7 @@ personal private needs that should not be neglected.hers -- you have
    </p>
 `   <p>`  
 `   </p>`  
-`  </div>`  
+`  </div></code></pre>   
   
 Notice anything?
   

@@ -1,7 +1,7 @@
-----
+---
 layout: post
 title: Breaking Bad
-----
+---
 
 I am in the process of making a little python program that can be used to create an astrological birth chart.
 It does not actually create the birth chart-- my friend built an Android app for making birth charts, and he
@@ -28,33 +28,33 @@ accessing the birth chart. I have successfully done that in my program. However,
 want to filter out JUST the birthchart information. I'm currently using Beautiful Soup to parse the page.
 Here's what the meat of the page looks like, for my birth chart:
   
-`<h4 style="text-align:center">
-    Here is the Astro Chart you requested:
-   </h4>
-  </div>
-  <div id="printReady">
-   <div class="chart" style="text-align:center">
-    <img alt="Free Birth Chart" src="pics/2457977570642.gif"/>
-   </div>
-   <br/>
-   <p>
-    <strong>
-with your Report!close attention to what is said about it. Now, onyou
-     <br/>
-     <br/>
-     Name: Astrolabe Customer
-     <br/>
-     December 24 1996
-     <br/>
-     4:20 PM  Time Zone is EST
-     <br/>
-     Washington, DC
-     <br/>
-     <br/>
-     Rising Sign	is in	27 Degrees	Gemini
-     <br/>
-and absorb things at a deeper level.uperficially -- try to dig in ay and
-     <br/>
+`<h4 style="text-align:center">`  
+`    Here is the Astro Chart you requested:`  
+`   </h4>`  
+`  </div>`  
+`  <div id="printReady">`  
+`   <div class="chart" style="text-align:center">`  
+`    <img alt="Free Birth Chart" src="pics/2457977570642.gif"/>`  
+`   </div>`  
+`   <br/>`  
+`   <p>`  
+`    <strong>`  
+`with your Report!close attention to what is said about it. Now, onyou`  
+`     <br/>`  
+`     <br/>`  
+`     Name: Astrolabe Customer`  
+`     <br/>`  
+`     December 24 1996`  
+`     <br/>`  
+`     4:20 PM  Time Zone is EST`  
+`     <br/>`  
+`     Washington, DC`  
+`     <br/>`  
+`     <br/>`  
+`     Rising Sign	is in	27 Degrees	Gemini`  
+`     <br/>`  
+`and absorb things at a deeper level.uperficially -- try to dig in ay and`  
+`     <br/>`  
      <br/>
      Sun         	is in	03 Degrees	Capricorn.
      <br/>
@@ -117,9 +117,9 @@ personal private needs that should not be neglected.hers -- you have
      <br/>
     </strong>
    </p>
-   <p>
-   </p>
-  </div>`
+`   <p>`  
+`   </p>`  
+`  </div>`  
   
 Notice anything?
   

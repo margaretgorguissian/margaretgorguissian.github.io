@@ -20,8 +20,8 @@ because unlike many other birt chart makers:
   
 The birth chart urls are formatted like so:
   
-`generic url blah blah... MONTH=integer & DAY=integer & YEAR=integer & HOUR=integer & MINUTE=integer
- & AMPM=string & TOWN=string & COUNTRY=string & STATE=string ... some more url blah blah`
+`generic url blah blah/MONTH=integer & DAY=integer & YEAR=integer & HOUR=integer & MINUTE=integer
+ & AMPM=string & TOWN=string & COUNTRY=string & STATE=string/some more url blah blah`
   
 which lends itself very nicely for me writing a little program to insert whatever I want into the url and then 
 accessing the birth chart. I have successfully done that in my program. However, it gets a little messy when I 
@@ -169,15 +169,15 @@ personal private needs that should not be neglected.hers -- you have
   
 Here is the code I copied:
   
-`for br in soup.findAll('br'):
-    next_s = br.nextSibling
-    if not (next_s and isinstance(next_s,NavigableString)):
-        continue
-    next2_s = next_s.nextSibling
-    if next2_s and isinstance(next2_s,Tag) and next2_s.name == 'br':
-        text = str(next_s).strip()
-        if text:
-            print "Found:", next_s
+`for br in soup.findAll('br'):  
+    next_s = br.nextSibling  
+    if not (next_s and isinstance(next_s,NavigableString)):  
+        continue  
+    next2_s = next_s.nextSibling  
+    if next2_s and isinstance(next2_s,Tag) and next2_s.name == 'br':  
+        text = str(next_s).strip()  
+        if text:  
+            print "Found:", next_s  
 `
 What does this say?
   *  For every br (line break) in the soup:

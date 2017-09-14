@@ -5,14 +5,16 @@ title: Breaking Bad
 I am in the process of making a little python program that can be used to grab
 an astrological birth chart. It does not actually create the birth chart-- my
 friend built an Android app for making birth charts, and he said the geometry
-sucked. My end goal for this is to write an Alexa skill that allows a user to say "Alexa,
-what's my rising sign?" and Alexa says, "Jimmy, you are a rising Libra. May God help you." for Amazon's little
-university free Echo promo thing-- so I don't really feel like dealing with geometry right now. I want something a
+sucked. My end goal for this is to write an Alexa skill that allows a user to
+say "Alexa, what's my rising sign?" and Alexa says, "Jimmy, you are a rising
+Libra. May God help you." for Amazon's little university free Echo promo thing--
+so I don't really feel like dealing with geometry right now. I want something a
 little quicker.
 
-Instead, I am using an existing birth chart maker, an accessing the information on the page after the user has
-provided their birthplace, date, and time. Alabe.com has a free birth chart maker, and it is perfect for my use
-because unlike many other birt chart makers:
+Instead, I am using an existing birth chart maker, an accessing the information
+on the page after the user has provided their birthplace, date, and time.
+Alabe.com has a free birth chart maker, and it is perfect for my use because
+unlike many other birt chart makers:
 
 *  They don't e-mail you the birth chart  
 *  They don't use latitude and longitude, just place names
@@ -20,13 +22,15 @@ because unlike many other birt chart makers:
 
 The birth chart urls are formatted like so:
 
-`generic url blah blah/MONTH=integer & DAY=integer & YEAR=integer & HOUR=integer & MINUTE=integer
- & AMPM=string & TOWN=string & COUNTRY=string & STATE=string/some more url blah blah`
+`generic url blah blah/MONTH=integer & DAY=integer & YEAR=integer & HOUR=integer
+ & MINUTE=integer & AMPM=string & TOWN=string & COUNTRY=string & STATE=string/
+ some more url blah blah`
 
-which lends itself very nicely for me writing a little program to insert whatever I want into the url and then
-accessing the birth chart. I have successfully done that in my program. However, it gets a little messy when I
-want to filter out JUST the birthchart information. I'm currently using Beautiful Soup to parse the page.
-Here's what the meat of the page looks like, for my birth chart:
+which lends itself very nicely for me writing a little program to insert whatever
+ I want into the url and then accessing the birth chart. I have successfully
+done that in my program. However, it gets a little messy when I want to filter
+out JUST the birthchart information. I'm currently using Beautiful Soup to parse
+the page. Here's what the meat of the page looks like, for my birth chart:
 
 ```html
 <h4 style="text-align:center">  
@@ -124,19 +128,23 @@ personal private needs that should not be neglected.hers -- you have
 ```  
 Notice anything?
 
-The stuff I want-- namely, the planets and their signs, aren't between any tags besides the broader `<p>` tags.
-I don't know if this is just nasty formatting, or if it's purposeful to discourage people like me from scraping
-the webpage.
+The stuff I want-- namely, the planets and their signs, aren't between any tags
+besides the broader `<p>` tags. I don't know if this is just nasty formatting,
+or if it's purposeful to discourage people like me from scraping the webpage.
 
-This reminds me of a problem I encountered in my Digital Humanities class in Fall 2016. I wanted to run some
-analysis on Greek texts, but for one of the texts I was using, all the lines were not between `<p>` tags, they were
-just separated by `<br>` tags. At the time, I was using the data analytics software KNIME, not writing code in python,
-and didn't know how to fix the issue, so I just chose a better formatted text to analyze (in my defense, I was short
+This reminds me of a problem I encountered in my Digital Humanities class in
+Fall 2016. I wanted to run some analysis on Greek texts, but for one of the
+texts I was using, all the lines were not between `<p>` tags, they were just
+separated by `<br>` tags. At the time, I was using the data analytics software
+KNIME, not writing code in Python, and didn't know how to fix the issue, so I
+just chose a better formatted text to analyze (in my defense, I was short
 on time).
 
-Not doing that this time! On Stack Overflow, I found [a user who was in the same situation I was-- and with them,
-an answer!](https://stackoverflow.com/questions/5275359/using-beautifulsoup-to-extract-text-between-line-breaks-e-g-br-tags)
-I copied an pasted the answer into my code, changing nothing, and my output looked like this:
+Not doing that this time! On Stack Overflow, I found [a user who was in the same
+situation I was-- and with them, an answer!]
+(https://stackoverflow.com/questions/5275359/using-beautifulsoup-to-extract-text-between-line-breaks-e-g-br-tags)
+I copied an pasted the answer into my code, changing nothing, and my output
+looked like this:
 
 ```
 Name: Astrolabe Customer
@@ -183,10 +191,13 @@ for br in soup.findAll('br'):
 ```
 What does this say?
   *  For every br (line break) in the soup:
-  *  Find the "next sibling" of the linebreak (because this code is so poorly formatted, it is the next line)
-  *  If the next line (line A) doesn't exist, or if it's not a navigable string, go to the next br
+  *  Find the "next sibling" of the linebreak (because this code is so poorly
+    formatted, it is the next line)
+  *  If the next line (line A) doesn't exist, or if it's not a navigable string, 
+  go to the next br
   *  Otherwise check to see if the line after next is a br
   *  If it is, strip line A of any tags and print line A
 
-For now, I have achieved my goal: discard the line breaks, and access what is in between them. Now, on the the next one:
-getting just what I care about from the lines: the planet and the sign.
+For now, I have achieved my goal: discard the line breaks, and access what is in
+between them. Now, on the the next one: getting just what I care about from the
+lines-- the planet and the sign.

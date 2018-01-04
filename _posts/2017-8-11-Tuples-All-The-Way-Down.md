@@ -35,4 +35,5 @@ However, if I try to add a tuple to the list using `+=` without first declaring
 a separate tuple variable (`chartlist += (planet, sign)`),
 it doesn't work. It adds the planet and sign separately to the list, not as a
 tuple. BUT! If I use the `append` function of lists instead, writing
-`chartlist.append((planet, sign))`, it DOES successfully add  
+`chartlist.append((planet, sign))`, it DOES successfully add the tuple to the
+list.

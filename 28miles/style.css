@@ -41,7 +41,7 @@ a {
 
 
 .progressbar-bg{
-height: 20px;
+height: 40px;
 width: 100%;
 border-radius: 5px;
 color: #000;
@@ -50,10 +50,11 @@ background-color: #12355b!important
 .progress {
 background-color: #ff570a;
 height: 100%;
-width: 9%;
+width: 35%;
 align: right;
 color: white;
+font-size: 30px;
 box-sizing: border-box;
-padding: 10px;
+padding: 20px;
 }
 

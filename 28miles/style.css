@@ -1,59 +1,88 @@
+:root {
+    --wrapper-height: 87vh;
+    --primary-text-color: #12355b;
+    --primary-text-size: 1.75rem;
+    --h1-text-color: #D72638;
+    --accent-color: #ff570a;
+    --font-family: Helvetica, Arial, sans-serif
+}
+
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1;
+    font-family: var(--font-family);
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  max-width: 100%
+}
+
 #wrapper {
-    margin: 20px 80px 80px 80px;
-    line-height: 1.5;
-    max-width: 100%;
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 6rem;
 }
+
 h1 {
-    font-size: 8vw;
+    font-size: 100px;
     font-weight: bold;
     line-height: 1.2;
-    color: #D72638;
+    color: var(--h1-text-color);
+    margin: 2rem 0 0;
 }
 h2 {
-    font-size: 6vw;
     color: #420039;
 }
 h3 {
-    font-size: 4vw;
     color: #D72638;
 }
 p,ul {
-    font-size: 3vw;
-    color: #12355b;
-    margin: 20px 0;
+    font-size: var(--primary-text-size);
+    color: var(--primary-text-color);
 }
 a {
-    color: #ff570a;
+    color: var(--accent-color);
 }
 
-@media only screen and (max-width: 600px) {
-    #wrapper {
-        margin-left: 80px;
-        margin-right: 80px;
-    }
+.col-form-label {
+    font-size: var(--primary-text-size);
+    color: var(--primary-text-color);
+}
+
+.btn,.btn-primary,.btn-md {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    font-size: var(--primary-text-size);
+}
+
+@media only screen and (max-width: 300px) {
+  .progressbar-bg {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .progress {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 
 .progressbar-bg{
-height: 40px;
-width: 100%;
-border-radius: 5px;
-color: #000;
-background-color: #12355b!important
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    color: #000;
+    background-color: #12355b!important
 }
 .progress {
-background-color: #ff570a;
-height: 100%;
-align: right;
-color: white;
-font-size: 30px;
-box-sizing: border-box;
-padding: 20px;
+    background-color: var(--accent-color);
+    height: 100%;
+    align: right;
+    color: white;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 20px;
 }
-

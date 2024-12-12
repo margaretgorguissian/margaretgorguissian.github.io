@@ -53,7 +53,8 @@ mistreated and removed from the product of their labor.
 *This originally was a 'forum essay' I submitted for my Cultures of Computing class, intended to be a brief response that bridged the topics of automation and gender in computing.*
 
 ----
-**Sources: **
+
+**Sources:**
 
 Irani, Lilly. 2015. “The Cultural Work of Microwork.” *New Media & Society* 17(5): 720–730.
 

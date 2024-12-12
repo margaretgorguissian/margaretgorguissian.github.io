@@ -144,6 +144,7 @@ was always bunching up in uncomfortable ways.
 ### Final thoughts
 I've joked a couple times that although I didn't hit any powerlifting PRs at the meet, 
 I hit a "self-hatred" (or really, self-compassion) PR. I didn't go 9 for 9. I flubbed 
-my deadlift set up. I did not bring glory to my family and my gym. But I still had 
+my deadlift set up. I did not bring glory to my family and my gym. But still feel 
+good about my performance and am not beating myself up over anything.  I had 
 a lot of fun, I recognize how I can do better next time, and I'm eager to put the work in 
-to do so.   
+to do so.

@@ -30,7 +30,8 @@ My handler chose my attempts, and calculated the weight I would be lifting for
 each exercise. Jessie is a seasoned professional and knew I would be dealing with 
 a lot of day-of nerves as this was my first meet. She also knows I generally have a 
 lot of anxiety around pushing myself and getting hurt!  Because of this, she chose my 
-attempts pretty carefully (especially squat - I did not even attempt to max out my squat). 
+attempts pretty carefully (especially squat - I did not even attempt to max out my squat), 
+balancing weights she knew I could do no-sweat with pushing me a bit. 
 My final bench attempt at 45kg was a result of me telling her that benching felt good 
 and I wanted to go up more, and my final deadlift attempt was a bit of a YOLO.
 
@@ -68,10 +69,11 @@ because that's usually my deadlift blocker!
 This wasn't really a new lesson learned for me, as I already trust Jessie immensely, 
 but it was definitely underscored at this meet. Jessie ran a tight ship, ensuring that 
 all lifters she was handling were warmed up in time, refueling and resting when necessary, and 
-on deck when needed to be. She thoughtfully chose my attempts and I wish I had believed in myself
-as much as she believed in me when it came to the 95kg deadlift! I went "head empty" and just 
-did everything she said. 
-
+standing on deck when they needed to be. Day of the meet I 
+basically went "head empty" and just did everything she (or her crew) said. 
+She thoughtfully chose my attempts and I wish I had believed in myself
+as much as she believed in me when it came to the 95kg deadlift!
+ 
 #### Set up is everything
 The two lifts I missed, I missed in part because I whiffed the set up. My squats felt 
 great, and that is the lift I have spent _the most_ time tweaking and drilling set up 
@@ -111,7 +113,9 @@ The meet was relatively small, but I still felt crowded. The music was loud, the
 lights were bright, and it was hot. The spotters stand close to you. You have to 
 wear constricting clothing. Do what you can to self-regulate during the meet. Take 
 your straps down on your singlet between attempts. Sip water. Sit near the door or 
-another source of air flow. Wear earplugs. Whatever you need to do!
+another source of air flow. Wear earplugs. Whatever you need to do! I was also warned 
+of the stimuli prior to the meet and so I had a couple trainings where I stood 
+next to the speaker at the gym or had spotters stand close to me. 
 
 #### Friends are there as support, not as an audience
 A bunch of friends came to watch me at the meet, and family members watched over livestream. 
@@ -120,6 +124,22 @@ that they showed up for me. I liked going out to see them between flights, and i
 meant a lot to me that they came. But when I was on the platform, I had to direct all 
 focus to the weights. I could hear their cheers but I was not there to put on a 
 performance for them - I just had to move the weight. 
+
+#### Practice commands
+Jessie was really good about coaching us with commands, and we spent the final 
+two to three weeks of training to lift with commands. Bench has the most commands 
+out of the three lifts ("Start", "Press", and "Rack") and I wish I had drilled it 
+a couple more times, especially at high weights/when tired - it's really easy to 
+miss the commands when you're nervous, tired, and holding something heavy!
+
+#### Check your gear
+Competitions have a bunch of rules about what sort of gear is okay/not-okay for 
+use. My knee sleeves were pretty simple, not super "springy" sleeves, so I figured 
+they would be okay. They weren't, because they weren't 100% neoprene. A fellow 
+lifter from my gym saved my rear with an extra pair of sleeves she had in her 
+car, and I was so grateful! I also highly recommend wearing a fairly tight t-shirt
+underneath your singlet - my t-shirt was just a liiiiitle too loose and so it 
+was always bunching up in uncomfortable ways.
 
 ### Final thoughts
 I've joked a couple times that although I didn't hit any powerlifting PRs at the meet, 

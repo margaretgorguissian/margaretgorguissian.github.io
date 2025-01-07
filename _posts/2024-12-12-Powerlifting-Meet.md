@@ -47,7 +47,7 @@ in future meets!
 Bench has been my favorite lift recently, despite my slow gains in strength. My first 
 two bench attempts felt really good, and so I requested to Jessie that I try 45kg for my final attempt 
 (a 5kg, rather 2.5kg, jump between attempts). I have done 45kg multiple times before 
-and so I was confident I would get make it. I did succeed in lifting the weight, however
+and so I was confident I would make it. I did succeed in lifting the weight, however
 I rushed my bench set up and the weight felt heavier than I expected it to, leading me 
 to rush and skip the "Press" command. Because I skipped the command, I failed the lift and 
 it did not count towards my total.
